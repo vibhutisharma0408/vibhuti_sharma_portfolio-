@@ -18,17 +18,16 @@ import {
   Upload,
   Settings
 } from 'lucide-react';
-
 const Skills = () => {
   const skillCategories = [
     {
       title: "Frontend Development",
       icon: <Code className="w-6 h-6" />,
       skills: [
-        { name: "React.js", icon: <Box className="w-4 h-4" /> },
-        { name: "JavaScript (ES6+)", icon: <FileCode className="w-4 h-4" /> },
-        { name: "HTML5", icon: <FileCode className="w-4 h-4" /> },
-        { name: "CSS3", icon: <Palette className="w-4 h-4" /> },
+        { name: "React.js", icon: <i className="devicon-react-original colored text-[18px]" /> },
+        { name: "JavaScript (ES6+)", icon: <i className="devicon-javascript-plain colored text-[18px]" /> },
+        { name: "HTML5", icon: <i className="devicon-html5-plain colored text-[18px]" /> },
+        { name: "CSS3", icon: <i className="devicon-css3-plain colored text-[18px]" /> },
         { name: "Responsive Design", icon: <Layout className="w-4 h-4" /> },
         { name: "Chakra UI", icon: <Palette className="w-4 h-4" /> }
       ]
@@ -37,8 +36,8 @@ const Skills = () => {
       title: "Backend Development", 
       icon: <Server className="w-6 h-6" />,
       skills: [
-        { name: "Node.js", icon: <Terminal className="w-4 h-4" /> },
-        { name: "Express.js", icon: <Zap className="w-4 h-4" /> },
+        { name: "Node.js", icon: <i className="devicon-nodejs-plain colored text-[18px]" /> },
+        { name: "Express.js", icon: <i className="devicon-express-original text-[18px]" /> },
         { name: "RESTful APIs", icon: <Globe className="w-4 h-4" /> },
         { name: "Authentication", icon: <Lock className="w-4 h-4" /> },
         { name: "Server-side Logic", icon: <Server className="w-4 h-4" /> }
@@ -48,8 +47,8 @@ const Skills = () => {
       title: "Database Management",
       icon: <Database className="w-6 h-6" />,
       skills: [
-        { name: "MongoDB", icon: <Database className="w-4 h-4" /> },
-        { name: "Firebase Firestore", icon: <Cloud className="w-4 h-4" /> },
+        { name: "MongoDB", icon: <i className="devicon-mongodb-plain colored text-[18px]" /> },
+        { name: "Firebase Firestore", icon: <i className="devicon-firebase-plain colored text-[18px]" /> },
         { name: "Database Design", icon: <Layers className="w-4 h-4" /> },
         { name: "Data Modeling", icon: <Box className="w-4 h-4" /> }
       ]
@@ -58,8 +57,8 @@ const Skills = () => {
       title: "Cloud & Deployment",
       icon: <Cloud className="w-6 h-6" />,
       skills: [
-        { name: "Firebase", icon: <Cloud className="w-4 h-4" /> },
-        { name: "Vercel", icon: <Upload className="w-4 h-4" /> },
+        { name: "Firebase", icon: <i className="devicon-firebase-plain colored text-[18px]" /> },
+        { name: "Vercel", icon: <i className="devicon-vercel-original text-[18px]" /> },
         { name: "Cloud Storage", icon: <Package className="w-4 h-4" /> },
         { name: "Continuous Deployment", icon: <Settings className="w-4 h-4" /> }
       ]
@@ -68,10 +67,23 @@ const Skills = () => {
       title: "Version Control",
       icon: <GitBranch className="w-6 h-6" />,
       skills: [
-        { name: "Git", icon: <GitBranch className="w-4 h-4" /> },
-        { name: "GitHub", icon: <GitBranch className="w-4 h-4" /> },
+        { name: "Git", icon: <i className="devicon-git-plain colored text-[18px]" /> },
+        { name: "GitHub", icon: <i className="devicon-github-original text-[18px]" /> },
         { name: "Version Control", icon: <Layers className="w-4 h-4" /> },
         { name: "Collaborative Development", icon: <Code className="w-4 h-4" /> }
+      ]
+    },
+    {
+      title: "Data Structures & Algorithms",
+      icon: <Layers className="w-6 h-6" />,
+      skills: [
+        { name: "Arrays & Strings", icon: <Layers className="w-4 h-4" /> },
+        { name: "Linked Lists", icon: <Box className="w-4 h-4" /> },
+        { name: "Stacks & Queues", icon: <Box className="w-4 h-4" /> },
+        { name: "Trees & Graphs", icon: <GitBranch className="w-4 h-4" /> },
+        { name: "Sorting & Searching", icon: <Zap className="w-4 h-4" /> },
+        { name: "Dynamic Programming", icon: <Settings className="w-4 h-4" /> },
+        { name: "Time & Space Complexity", icon: <Terminal className="w-4 h-4" /> }
       ]
     },
     {
@@ -101,7 +113,7 @@ const Skills = () => {
   const coreSkills = [
     "MERN Stack", "Full Stack Development", "React.js", "Node.js", 
     "Express.js", "MongoDB", "Firebase", "JavaScript", "HTML5", "CSS3",
-    "Chakra UI", "Vercel", "Git", "RESTful APIs", "Responsive Design"
+    "Chakra UI", "Vercel", "Git", "RESTful APIs", "Responsive Design", "DSA"
   ];
 
   return (

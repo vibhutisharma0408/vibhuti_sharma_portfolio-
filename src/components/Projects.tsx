@@ -6,33 +6,33 @@ const Projects = () => {
   const projects = [
     {
       title: "Loan Application Management System",
-      description: "A comprehensive loan management platform with secure authentication, multi-step application forms, and dynamic comparison tools. Features an interactive dashboard for loan tracking and Firebase integration for seamless data management.",
+      description: "End‑to‑end loan workflow with auth, multi‑step forms, comparison, and an analytics dashboard. Built for clarity and speed with optimized renders and form validation.",
       technologies: ["React.js", "Firebase", "Chakra UI", "Vercel"],
       liveUrl: "https://loan-app-cyan.vercel.app/",
       githubUrl: "https://github.com/vibhutisharma0408/loan-management-system",
       features: [
-        "Secure authentication system",
-        "Multi-step loan application form",
-        "Dynamic loan comparison tool", 
-        "Interactive dashboard with analytics",
-        "Firebase Storage integration",
-        "Responsive design across all devices"
+        "Secure authentication with route protection",
+        "Multi‑step loan application with validation",
+        "Dynamic loan comparison with reusable UI",
+        "Analytics dashboard (charts, trends)",
+        "Firebase Storage & Firestore integration",
+        "Responsive and accessible UI"
       ],
       image: loanAppImage
     },
     {
-      title: "EatSmart – AI-Powered Health & Nutrition Assistant",
-      description: "An AI-driven nutrition assistant that provides personalized meal plans, real-time health tips, and expert guidance through a conversational interface. Built with React, Tailwind CSS, Firebase, and Framer Motion, ensuring a responsive and engaging user experience.",
+      title: "EatSmart – AI Health & Nutrition Assistant",
+      description: "AI‑assisted nutrition coach that generates personalized meal plans and tips via a conversational UI. Focus on smooth UX, fast responses, and clear information hierarchy.",
       technologies: ["React.js", "Tailwind CSS", "Firebase", "Framer Motion", "AI APIs", "Vercel"],
       liveUrl: "https://eat-smart-rouge.vercel.app/",
       githubUrl: "https://github.com/vibhutisharma0408/EatSmart",
       features: [
-        "AI-powered personalized meal plans",
-        "Real-time health tips and guidance",
-        "Conversational interface for expert advice",
-        "Integration with nutrition APIs",
-        "Track wellness journey effectively",
-        "Customized recommendations based on user goals"
+        "Personalized meal plans using AI APIs",
+        "Real‑time tips with stateful chat",
+        "Conversational interface with graceful fallbacks",
+        "Nutrition API integrations",
+        "Progress tracking UI",
+        "Goal‑based recommendations"
       ],
       image: eatSmartImage
     }

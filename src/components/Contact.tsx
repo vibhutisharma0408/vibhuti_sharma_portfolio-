@@ -85,7 +85,7 @@ const Contact = () => {
             Get In <span className="text-gradient">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to discuss opportunities or collaborate on exciting projects? Let's connect!
+            Open to full‑time roles and collaborations. If you value clean code, clear communication, and fast delivery, let’s talk.
           </p>
         </div>
 
@@ -95,9 +95,7 @@ const Contact = () => {
             <div className="portfolio-card mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-gradient">Let's Connect</h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                I'm actively seeking opportunities as a <strong className="text-primary">MERN Stack Developer</strong> or 
-                <strong className="text-primary"> Full Stack Web Developer</strong>. Whether you have a job opportunity, 
-                project collaboration, or just want to discuss technology, I'd love to hear from you!
+                I’m looking to contribute on teams that ship. Whether it’s a product feature, a bug‑fix sprint, or a greenfield build, I bring focus and follow‑through.
               </p>
 
               <div className="space-y-6">
@@ -241,8 +239,7 @@ const Contact = () => {
           <div className="portfolio-card inline-block max-w-3xl">
             <h3 className="text-xl font-semibold mb-4 text-gradient">Ready to Work Together?</h3>
             <p className="text-muted-foreground mb-6">
-              I'm passionate about creating innovative web solutions and would love to contribute to your team or project. 
-              Let's discuss how we can build something amazing together!
+              Let’s explore how I can help you ship faster with React and the MERN stack.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

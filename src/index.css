@@ -135,6 +135,11 @@
     @apply border-2 border-primary text-primary px-8 py-3 rounded-lg font-medium transition-[var(--transition-smooth)] hover:bg-primary hover:text-primary-foreground;
   }
   
+  /* Secondary button (used on project cards) */
+  .portfolio-button-secondary {
+    @apply bg-secondary text-secondary-foreground px-8 py-3 rounded-lg font-medium border border-border transition-[var(--transition-smooth)] hover:border-primary/40 hover:bg-secondary/70;
+  }
+  
   .text-gradient {
     background: var(--text-gradient);
     -webkit-background-clip: text;
@@ -152,6 +157,37 @@
   
   .nav-link {
     @apply text-muted-foreground hover:text-foreground transition-[var(--transition-smooth)] font-medium;
+  }
+
+  /* 3D tilt utilities */
+  .tilt-container {
+    perspective: 1000px;
+  }
+  .tilt-card {
+    transform-style: preserve-3d;
+    transition: transform 300ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 300ms ease;
+    will-change: transform;
+  }
+  .tilt-card:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+  .tilt-shine {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 200ms ease;
+    mix-blend-mode: screen;
+    background: radial-gradient(
+      400px 400px at var(--mx) var(--my),
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.06) 35%,
+      rgba(255, 255, 255, 0.0) 60%
+    );
+    border-radius: inherit;
+  }
+  .tilt-card:hover .tilt-shine {
+    opacity: 1;
   }
 }
 

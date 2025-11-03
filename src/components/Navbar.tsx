@@ -65,18 +65,16 @@ const Navbar = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`nav-link ${
-                    activeSection === item.id ? 'text-primary' : ''
-                  }`}
+                  className={`nav-link ${activeSection === item.id ? 'text-primary' : ''}`}
                 >
                   {item.label}
                 </button>
               ))}
               <a
-                href="/Vibhuti_Sharma_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Vibhuti-Sharma-Resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="Vibhuti_Sharma_Resume.pdf"
+                download="Vibhuti-Sharma-Resume.pdf"
                 className="portfolio-button flex items-center gap-2"
               >
                 <Download size={18} />
@@ -104,18 +102,16 @@ const Navbar = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`block w-full text-left px-3 py-2 rounded-md nav-link ${
-                    activeSection === item.id ? 'text-primary bg-primary/10' : ''
-                  }`}
+                  className={`block w-full text-left px-3 py-2 rounded-md nav-link ${activeSection === item.id ? 'text-primary bg-primary/10' : ''}`}
                 >
                   {item.label}
                 </button>
               ))}
               <a
-                href="/Vibhuti_Sharma_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Vibhuti-Sharma-Resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="Vibhuti_Sharma_Resume.pdf"
+                download="Vibhuti-Sharma-Resume.pdf"
                 className="block w-full text-left px-3 py-2 rounded-md portfolio-button flex items-center gap-2"
               >
                 <Download size={18} />

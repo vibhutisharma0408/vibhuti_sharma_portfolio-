@@ -32,7 +32,7 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate about crafting innovative web solutions and continuously evolving in the tech landscape. Skilled in building responsive and dynamic web applications using modern technologies like MERN stack, Firebase, and Tailwind CSS. Experienced in integrating APIs, managing state, and deploying full-stack projects. Dedicated to creating seamless user experiences and delivering impactful digital solutions.
+            I’m a JavaScript-first developer who enjoys turning requirements into fast, clean, and usable products. I ship React frontends, wire APIs, and deploy reliably with modern tooling.
           </p>
         </div>
 
@@ -42,33 +42,23 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-6 text-gradient">My Journey</h3>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm Vibhuti Sharma, a B.Tech graduate in Information Technology from SSIPMT Raipur (2024). 
-                  My journey in technology began with a curiosity about how digital solutions can transform ideas into reality, 
-                  leading me to pursue full-stack development with dedication and enthusiasm.
+                  B.Tech in IT (SSIPMT Raipur, 2024). I’m currently sharpening full‑stack skills at Masai and building projects that emphasize performance, accessibility, and clear UX.
                 </p>
-                
+
                 <p>
-                  Currently, I'm expanding my expertise through a comprehensive Full Stack Development program at Masai School, 
-                  where I'm mastering the MERN stack and modern web development practices. This intensive learning experience 
-                  has equipped me with both theoretical knowledge and hands-on experience in building scalable applications.
-                  My professional experience includes roles at NoBroker Technology and Squareyard, where I developed strong 
-                  problem-solving skills and client management capabilities.
+                  Recent work includes an AI‑powered nutrition assistant and a loan management platform with auth, multi‑step forms, dashboards, and Firebase. I like working end‑to‑end: components, state, APIs, and deployment.
                 </p>
-                
                 <p>
-                  I'm actively seeking opportunities as a <strong className="text-primary">MERN Stack Developer</strong> or 
-                  <strong className="text-primary"> Full Stack Web Developer</strong> where I can contribute to meaningful 
-                  projects while continuing to grow professionally. My goal is to create user-centric applications that 
-                  solve real-world problems efficiently.
+                  Open to roles where I can build real features, iterate with feedback, and own outcomes.
                 </p>
               </div>
               
               <div className="flex flex-wrap gap-4 mt-8">
                 <a
-                  href="/Vibhuti_Sharma_Resume.pdf"
+                  href={`${import.meta.env.BASE_URL}Vibhuti-Sharma-Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download="Vibhuti_Sharma_Resume.pdf"
+                  download="Vibhuti-Sharma-Resume.pdf"
                   className="portfolio-button-hero flex items-center gap-2"
                 >
                   <Download size={20} />

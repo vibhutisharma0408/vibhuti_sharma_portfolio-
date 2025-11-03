@@ -34,14 +34,13 @@ const Hero = () => {
               <span className="text-foreground">Vibhuti</span>{' '}
               <span className="text-gradient">Sharma</span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Aspiring MERN Stack Developer | Full Stack Web Development Enthusiast
+              I build reliable, fast, and clean web apps with React and the MERN stack.
             </p>
-            
+
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-              B.Tech in Information Technology from SSIPMT Raipur, currently enhancing expertise in Full Stack Development at Masai. 
-              Skilled in building responsive and scalable web applications using modern technologies, with a passion for creating impactful digital solutions.
+              B.Tech (IT) graduate, upskilling in Full‑Stack at Masai. Focused on performant UI, solid API integration, and smooth deployments.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -57,7 +56,7 @@ const Hero = () => {
                 onClick={() => scrollToSection('contact')}
                 className="portfolio-button-outline flex items-center gap-2"
               >
-                Get In Touch
+                Hire Me / Contact
                 <Download size={20} />
               </button>
             </div>

@@ -30,10 +30,10 @@ const Experience = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Professional <span className="text-gradient">Experience</span>
+            Professional <span className="text-gradient">Journey</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Building expertise through diverse professional roles and client interactions
+            Customer‑facing roles that strengthened problem‑solving, ownership, and communication — now applied to software development.
           </p>
         </div>
 
@@ -68,6 +68,10 @@ const Experience = () => {
                     <span>{responsibility}</span>
                   </li>
                 ))}
+                <li className="flex items-start gap-3 text-muted-foreground">
+                  <Briefcase className="w-4 h-4 mt-1 text-primary flex-shrink-0" />
+                  <span>Transferred strengths: issue triage, stakeholder updates, and shipping outcomes under deadlines.</span>
+                </li>
               </ul>
             </div>
           ))}
