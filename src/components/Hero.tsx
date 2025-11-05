@@ -28,8 +28,8 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-[var(--gradient-hero)]">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+    <section id="home" className="min-h-[85vh] md:min-h-[75vh] lg:min-h-screen flex items-center justify-center bg-[var(--gradient-hero)]">
+      <div className="max-w-7xl mx-auto px-6 py-12 md:py-16 lg:py-20">
         <div className="text-center">
           <div className="mb-8 animate-fade-in">
             <div className="relative w-48 h-48 mx-auto mb-8">
@@ -56,7 +56,7 @@ const Hero = () => {
               B.Tech (IT) graduate, upskilling in Full‑Stack at Masai. Focused on performant UI, solid API integration, and smooth deployments.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8 md:mb-10 lg:mb-12">
               <button
                 onClick={() => scrollToSection('projects')}
                 className="portfolio-button-hero flex items-center gap-2"
