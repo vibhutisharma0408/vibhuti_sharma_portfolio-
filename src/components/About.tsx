@@ -56,7 +56,7 @@ const About = () => {
               
               <div className="flex flex-wrap gap-4 mt-8">
                 <a
-                  href={`${import.meta.env.BASE_URL}Vibhuti_Sharma_Resume%20(18).pdf`}
+                  href={`${import.meta.env.BASE_URL}Vibhuti_Sharma_Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   download="Vibhuti_Sharma_Resume.pdf"

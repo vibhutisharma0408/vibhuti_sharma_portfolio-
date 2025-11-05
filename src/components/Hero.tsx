@@ -14,7 +14,7 @@ const Hero = () => {
     }
   };
 
-  const resumeUrl = `${import.meta.env.BASE_URL}Vibhuti_Sharma_Resume%20(18).pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Vibhuti_Sharma_Resume.pdf`;
   const handleResumeClick = (e: React.MouseEvent) => {
     e.preventDefault();
     const url = resumeUrl;
@@ -28,7 +28,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-[85vh] md:min-h-[75vh] lg:min-h-screen flex items-center justify-center bg-[var(--gradient-hero)]">
+    <section id="home" className="min-h-[85vh] md:min-h-[75vh] lg:min-h-screen pt-24 md:pt-24 flex items-center justify-center bg-[var(--gradient-hero)]">
       <div className="max-w-7xl mx-auto px-6 py-12 md:py-16 lg:py-20">
         <div className="text-center">
           <div className="mb-8 animate-fade-in">

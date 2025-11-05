@@ -44,7 +44,7 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
-  const resumeUrl = `${import.meta.env.BASE_URL}Vibhuti_Sharma_Resume%20(18).pdf`;
+  const resumeUrl = `${import.meta.env.BASE_URL}Vibhuti_Sharma_Resume.pdf`;
   const handleResumeClick = (e: any) => {
     e.preventDefault();
     const url = resumeUrl;
